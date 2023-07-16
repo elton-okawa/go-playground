@@ -5,4 +5,4 @@ Stores independent scripts created for studying purposes of specific features of
 ## Running
 Example of running a script:
 
-    go run cmd/fan-in/main.go
+    go run goroutine/fan-in/main.go
