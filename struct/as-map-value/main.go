@@ -5,8 +5,8 @@ import "fmt"
 /**
 How can I mutate a struct as value map?
 
-Structs are passed by value, including in function arguments and also map values
-In order to persist struct changes from receivers, we need to have a map of struct
+Structs are passed by value, including in function arguments and also assigning map values
+to variables. In order to persist struct changes from receivers, we need to have a map of struct
 pointers instead a simple map of structs because:
 
 (&mp[key]).Toggle() -> is an invalid operation
